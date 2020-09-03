@@ -1,0 +1,68 @@
+body {
+    display: grid;
+    grid-template:
+        "header header header   header   header  header" 119.1px
+        "aside  aside  link     article  article article" 119.1px
+        "aside  aside  link     article  article article" 119.1px 
+        "aside  aside  player   player   image image" 119.1px
+        "aside  aside  article1 article1 image image" 119.1px 
+        "aside  aside  article1 article1 image image" 119.1px 
+        "aside  aside  article1 article1 link1 link2" 119.1px 
+        "aside  aside  footer   footer   footer footer" 119.1px
+        ;
+}
+
+.item {
+    padding:10px;
+    margin: 2px;
+}
+
+.header {
+    grid-area: header;
+    background: blue;
+}
+
+.aside {
+    grid-area:aside;
+    background: violet;
+}
+
+.link {
+    grid-area:link;
+    background: yellow;
+}
+
+.article {
+    grid-area:article;
+    background: royalblue;
+}
+
+.player {
+    grid-area:player;
+    background: saddlebrown;
+}
+
+.image {
+    grid-area: image;
+    background: pink;
+}
+
+.article1 {
+    grid-area: article1;
+    background: seagreen;
+}
+
+.link1 {
+    grid-area:link1;
+    background: red;
+}
+
+.link2 {
+    grid-area:link2;
+    background: darkmagenta;
+}
+
+.footer {
+    grid-area:footer;
+    background: black;
+}
